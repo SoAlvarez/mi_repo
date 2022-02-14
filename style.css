@@ -4,9 +4,7 @@
 
 .navBar {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 0%;
-    margin-top: 10%;
+    justify-content:space-between;
     font-family: 'Source Serif 4', sans-serif;
     font-size: larger;
     font-weight: bolder;
@@ -14,7 +12,7 @@
 
 .navBar-item {
     display: flex;
-    margin: 0%;
+    justify-items: auto;
 }
 
 .linkNoSub {
@@ -54,8 +52,8 @@ a:hover {
 #header {
     display: grid;
     margin-left: 10px;
-    grid-template-columns: 18% auto;
-    grid-template-areas: "header header"
+    grid-template-columns: 30% auto;
+    grid-template-areas: "header header";
 }
 
 #main {
