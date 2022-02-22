@@ -5,15 +5,16 @@
 .navBar_p {
 	display: flex;
 	flex-direction: column;
+	margin-right: 20px;
+	justify-content: flex-end;
 	font-family: "Source Serif 4", sans-serif;
 	font-size: larger;
-	font-weight: bolder;
-	margin-right: 75%;
+	font-weight: bold;
 }
 
 .navBar-item_p {
 	display: flex;
-	margin-left: 20%;
+	margin-inline: 20px;
 }
 
 .navbar-toggler_p {
@@ -55,6 +56,10 @@ a:hover {
 	margin-left: 20%;
 }
 
+.fuenteSola {
+	font-family: "Source Serif 4", sans-serif;
+}
+
 /* 
 No hace falta ya que ya bootstrap acomoda las cosas
 #header {
@@ -74,8 +79,6 @@ No hace falta ya que ya bootstrap acomoda las cosas
 } */
 
 #footer {
-	text-align: center;
-	width: 100%;
 	position: relative;
 	bottom: 0;
 }
