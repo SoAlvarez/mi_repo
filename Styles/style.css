@@ -25,6 +25,30 @@
   margin: 12px;
 }
 
+.navBar_p a {
+  display: inline-block;
+  position: relative;
+  color: #343a40;
+}
+
+.navBar_p a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #343a40;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navBar_p a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .navBar_p ul {
   margin-left: 10%;
 }

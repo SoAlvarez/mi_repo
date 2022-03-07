@@ -29,6 +29,30 @@
 
     a {
         margin: 12px;
+
+        & {
+            display: inline-block;
+            position: relative;
+            color: #343a40;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #343a40;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+
+        &:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
     }
 
     ul {
