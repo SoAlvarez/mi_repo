@@ -75,15 +75,17 @@
 }
 
 .card {
-    background-color: whitesmoke;
+    background-color: #cec9bc;
+    border: none;
+    margin-inline: 2%;
+
+    h5 {
+        font-weight: bold;
+    }
 
     p {
         text-align: left;
-        margin-left: 0%;
-    }
-
-    a {
-        @extend .btn;
+        margin-inline: 0%;
     }
 }
 

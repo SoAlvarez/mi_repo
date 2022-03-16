@@ -53,27 +53,33 @@
   margin-left: 10%;
 }
 
-.btn, .card a {
+.btn {
   /*botón Enviar formulario de contacto*/
   border: none;
   background-color: gray;
 }
 
-.btn:hover, .card a:hover {
+.btn:hover {
   background-color: gray;
 }
 
-.btn:hover:active, .card a:hover:active {
+.btn:hover:active {
   background-color: gray;
 }
 
 .card {
-  background-color: whitesmoke;
+  background-color: #cec9bc;
+  border: none;
+  margin-inline: 2%;
+}
+
+.card h5 {
+  font-weight: bold;
 }
 
 .card p {
   text-align: left;
-  margin-left: 0%;
+  margin-inline: 0%;
 }
 
 footer div {
