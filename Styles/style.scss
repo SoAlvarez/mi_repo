@@ -61,7 +61,6 @@
 }
 
 .btn {
-    /*botón Enviar formulario de contacto*/
     border: none;
     @include colorFondo;
 
@@ -70,9 +69,14 @@
 
         &:active {
             @include colorFondo;
+
+            &:visited {
+                @include colorFondo;
+            }
         }
     }
 }
+
 
 .card {
     background-color: #cec9bc;
