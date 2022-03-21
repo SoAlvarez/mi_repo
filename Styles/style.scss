@@ -4,6 +4,7 @@
 
 @mixin colorFondo {
     background-color: gray;
+    background-image: none;
 }
 
 .fondo {
@@ -64,19 +65,13 @@
     border: none;
     @include colorFondo;
 
-    &:hover {
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
         @include colorFondo;
-
-        &:active {
-            @include colorFondo;
-
-            &:visited {
-                @include colorFondo;
-            }
-        }
     }
 }
-
 
 .card {
     background-color: #cec9bc;

@@ -55,18 +55,12 @@
 .btn {
   border: none;
   background-color: gray;
+  background-image: none;
 }
 
-.btn:hover {
+.btn:hover, .btn:active, .btn:focus, .btn:visited {
   background-color: gray;
-}
-
-.btn:hover:active {
-  background-color: gray;
-}
-
-.btn:hover:active:visited {
-  background-color: gray;
+  background-image: none;
 }
 
 .card {
